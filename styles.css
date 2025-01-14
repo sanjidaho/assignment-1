@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.sign-in-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e5f4e7;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.flag-icon {
+    width: 100px;
+    height: 100px;
+    background: url('flag.png') no-repeat center center / contain;
+    margin: 20px auto;
+}
+
+.pillars {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.pillars-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pillar-card {
+    background: #e5f4e7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 22%;
+    text-align: center;
+}
+
+.vision {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.vision-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.vision-card {
+    background: #e5f4e7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.quote {
+    margin-top: 40px;
+    font-style: italic;
+    color: #555;
+}
+
+.opinion, .news, .donate, .newsletter {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.news-card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.donation-options button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
